@@ -18,6 +18,10 @@ setup(
             glob(os.path.join("configs", "*.yaml")),
         ),
         (
+            os.path.join("share", package_name, "rviz"),
+            glob(os.path.join("rviz", "*.rviz")),
+        ),
+        (
             os.path.join("share", package_name, "launch"),
             glob(os.path.join("launch", "*.py")),
         ),

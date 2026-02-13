@@ -3,7 +3,7 @@ import os
 from glob import glob
 
 
-package_name = 'homer_navigation'
+package_name = 'meemaw_navigation'
 
 setup(
     name=package_name,
